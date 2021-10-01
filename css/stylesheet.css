@@ -1,0 +1,367 @@
+html {
+	width:100%; 
+	height:100%;
+}
+
+body {
+	margin:0px;
+	width:10000px; 
+	height:100%; 
+	min-width:1152px; 
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	color:#353535;
+	overflow:hidden;
+}
+
+a {
+    color: gray;
+	font-style:normal;
+	text-decoration:none;
+	font-size:30px;
+}
+
+#top {
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#ffffff;
+}
+
+#top_left {
+	float:left; 
+	margin-left:70px;
+	margin-top:15px;
+}
+
+#top_right {
+	float:right; 
+	padding-top:100px;
+	margin-right:90px;
+}
+
+.logo{
+	width:160px;
+}
+
+#content {
+	float:left;
+	margin-top:160px;
+	width:100%;
+}
+
+#content_container{
+	width:1100px;
+	margin:auto;
+}
+
+#content_home,
+#content_work,
+#content_about,
+#content_contact{
+	float:left;
+	height:600px;
+}
+
+#content_work{
+	background-image:url(../images/marble-background.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+	background-size:600px;
+}
+
+#home,
+#work,
+#about,
+#contact{
+	margin-left:20px;
+	float:right;
+	font-size:25px; 
+}
+
+#home:hover,
+#work:hover,
+#about:hover,
+#contact:hover,
+.button_active {
+	border-bottom:1px #353535 solid;
+}
+
+#content_home{
+	background-image:url(../images/homepage.jpg);
+	background-repeat:no-repeat;
+	background-position:0 50%;
+	background-size:cover;
+}
+
+#content_home_container{
+	margin:auto;
+	width:1100px;
+}
+
+#content_home_left{
+	float:left;
+	width:800px;
+}
+
+#content_home_left img{
+	width:400px;
+}
+
+#content_home_left_top{
+	float:left;
+	width:100%;
+	margin-top:50px;
+}
+
+#content_home_left_bottom{
+	float:left;
+	width:100%;
+	margin-top:50px;
+}
+
+#content_home_right{
+	float:right;
+	width:50px;
+	margin-top:250px;
+	margin-right:50px;
+}
+
+#content_home_right img{
+	width:60px;
+}
+
+#content_work_left{
+	float:left;
+	width:600px;
+}
+
+#print_box,
+#digital_box,
+#logo_box,
+#others_box{
+	float:left;
+	/*border:1px black solid;*/
+	width:150px;
+	height:50px;
+}
+
+#print_box{
+	margin-top: 120px;
+    margin-left: 170px;
+}
+
+#digital_box{
+	clear: both;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+#logo_box{
+	margin-top: 25px;
+    margin-left: 120px;
+}
+
+#others_box{
+	margin-top: 25px;
+    clear: both;
+    margin-left: 170px;
+}
+
+/**********************************/
+/* Lines beneath WORK tab buttons */
+/**********************************/
+#print_box,
+#digital_box,
+#logo_box,
+#others_box {
+  position: relative;
+  color: #000000;
+}
+
+/* create the underlines below the divs but not show it under it hovers */
+#print_box:after,
+#digital_box:after,
+#logo_box:after,
+#others_box:after {
+  display: block;
+  position: absolute;
+  left: 45px;
+  bottom: 0px;
+  width: 0;
+  height: 1px;
+  background-color: #000000;
+  content: "";
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#others_box:after,
+#digital_box:after{
+	left:35px !important;
+}
+
+/* corresponds to the :after divs */
+#print_box:hover:after,
+#others_box:hover:after,
+.test {
+  width: 220%;
+}
+
+#logo_box:hover:after{
+  width: 180%;
+}
+
+#digital_box:hover:after{
+    width: 320%;
+}
+
+#content_work_right {
+	float:left;
+	margin-top:100px;
+	padding-left:50px;
+}
+
+#content_work img{
+	float:left;
+	margin:25px;
+	width:200px;
+}
+
+#content_work img:hover{
+	opacity:0.3;
+}
+
+#print_content,
+#digital_content,
+#logo_content,
+#others_content{
+	float:left;
+	width:100%;
+	display:none;
+}
+
+#organic_logo,
+#red_tea_logo{
+	width:180px !important;
+}
+
+.work_ontop_div{
+	z-index:1000;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	overflow:auto;
+	background-color:white;
+	height:500px;
+	display:none;
+}
+
+.work_ontop_div_top{
+	width:100%;
+	float:left;
+	margin-top:25px;
+}
+
+.work_ontop_div_logo{
+	margin:auto;
+	width:160px;
+}
+
+
+.work_ontop_div_middle{
+	width:100%;
+	float:left;
+	margin-top:50px;
+	margin-bottom:100px;
+	padding-bottom:100px;
+}
+
+.work_ontop_div_middle_content{
+	width:1100px;
+	margin:auto;
+}
+
+.work_ontop_div_images,
+.work_ontop_div_right{
+	width:500px;
+	float:left;
+	margin:0px 25px;
+}
+
+.work_ontop_div_images img{
+	float:left;
+	width:500px;
+	margin-bottom:30px;
+}
+
+.work_ontop_div_text{
+	width:400px;
+	float:left;
+	margin-bottom:70px;
+	letter-spacing:1px;
+}
+
+.work_ontop_div_back{
+	float:left;
+	margin-bottom:70px;
+	letter-spacing:2px;
+	border:1px solid #3f3f3f;
+	clear:both;
+	padding:5px;
+}
+
+#content_about{
+	background-image:url('../images/about-marble-background.gif');
+	background-repeat:no-repeat;
+	background-position-x:100%;
+	background-size:50%;
+}
+
+#content_about_container{
+	margin:auto;
+	width:1100px;
+}
+
+#content_about_top{
+	margin-top:50px;
+	float:left;
+	width:500px;
+}
+
+#content_contact_container{
+	margin:auto;
+	width:1100px;
+}
+
+#content_contact_top,
+#content_contact_bottom{
+	margin-top:20px;
+	float:left;
+	width:100%;
+}
+
+#content_contact_top img,
+#content_contact_bottom img{
+	width:40px;
+	float:left;
+}
+
+#content_contact_email{
+	margin-left:10px;
+	float:left;
+	font-size:25px !important;
+	margin-top:5px;
+}
+
+#content_contact_phone{
+	margin-left:10px;
+	float:left;
+	color: gray;
+	font-size:25px;
+	margin-top:5px;
+}

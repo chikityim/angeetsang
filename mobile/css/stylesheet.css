@@ -1,0 +1,159 @@
+html {
+	width:100%; 
+	height:100%;
+}
+
+body {
+	margin:0px;
+	width:100%; 
+	height:100%; 
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	color:#353535;
+}
+
+a {
+    color: gray;
+	font-style:normal;
+	text-decoration:none;
+}
+
+.menu-item-selected{
+	border:1px solid #3f3f3f;
+}
+
+.top{
+	width:100%; float:left;
+}
+
+.top_left{
+	width:50%; float:left;
+}
+
+.homepage_logo{
+	width:45%;height:auto; padding-top:10px; padding-left:20px;
+}
+
+.top_right{
+	width:38%; float:left; padding-right:12%; padding-top:12%
+}
+
+.menu_button{
+	width:20%; float:right;
+}
+
+.content{
+	width:100%; background-image:url('../images/mobile-marble-background.gif'); background-repeat:no-repeat; background-size:100%; background-position:0% 0%; float:left; margin-top:10px;
+}
+
+.content_top{
+	width:100%; float:left;
+}
+
+.homepage_graphic{
+	width:35%; float:left; padding-left:5%; padding-top:5%;
+}
+
+.homepage_digital{
+	width:50%; float:left; clear:both; padding-left:5%; padding-top:5%;
+}
+
+.work{
+	width:100%; float:left; margin-top:10%; display:none;
+}
+
+.work_container{
+	width:50%; margin:auto;
+}
+
+.work_images{
+	float:left; max-width:100%; margin-bottom:50px; clear:both;
+}
+
+.about{
+	width:100%; float:left; margin-top:10%; display:none;
+}
+
+.about_content{
+	width:80%; margin:auto;
+}
+
+.contact{
+	width:100%; float:left; margin-top:10%; display:none;
+}
+
+.contact_content{
+	width:80%; margin:auto;
+}
+
+.contact_img{
+	width:10%; float:left; clear:left; max-width:30px;
+}
+
+.email{
+	float:left; padding-top:5px; padding-left:5px;
+}
+
+.phone{
+	float:left; padding-top:5px; padding-left:5px;
+}
+
+.menu-level-1{
+	width:100%; background-image:url('../images/transparent-bg.png'); position:absolute; font-size:30px; padding-top:25px; display:none;
+}
+
+.menu-level-1-top{
+	width:100%; float:left; height:100px;
+}
+
+.menu-item-container{
+	margin:auto; margin-top:25px; margin-bottom:25px; width:100px; text-align:center;
+}
+
+.menu-level-2{
+	width:100%; background-color:#ffffff; position:absolute; font-size:30px; padding-top:25px; z-index:1000; display:none;
+}
+
+.menu-level-2-top{
+	width:100%; float:left; height:100px;
+}
+
+.menu-item-container{
+	margin:auto; margin-top:25px; margin-bottom:25px; width:100px; text-align:center;
+}
+
+.work_ontop_div{
+	position:absolute;width:100%; background-color:#ffffff; display:none;
+}
+
+.work_ontop_div_top{
+	width:100%; float:left; margin-top:2%
+}
+
+.work_ontop_div_logo{
+	width:150px; margin:auto;
+}
+
+.inner_logo{
+	width:150px;
+}
+
+.work_ontop_div_bottom{
+	width:100%; float:left; margin-top:2%;
+}
+
+.work_ontop_div_bottom_content{
+	width:80%; margin:auto;
+}
+
+.inner_img{
+	margin-top:5px; max-width:100%; float:left;
+}
+
+.work_ontop_div_text{
+	float:left; width:100%
+}
+
+.work_ontop_div_back{
+	float:right; margin-top:20px; margin-bottom:20px; border:1px solid #3f3f3f; padding:5px;
+}
