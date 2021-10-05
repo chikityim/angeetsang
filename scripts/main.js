@@ -34,7 +34,7 @@
         $(function() {
 			
 			if (screen.width <= 1024) {
-				window.location = "http://m.angeetsang.com";
+				window.location = "http://m.angietsang.ca";
 			}; 
 			
 			/* Always start on the homepage */
